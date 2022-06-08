@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.Start-Wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2vw;
+  background-color: #e6f9ff;
+  height: 100vh;
+}
+
+.Questions-Wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 4em;
+  background-color: #e6f9ff;
+  height: 100vh;
+}
+
+.Questions-Content-Wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80vw;
+  
+}
+
+
+
+.Start-Text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #003d99;
+  height: 40vh;
+  gap: 2vh;
+}
+
+.Start-Title {
+  margin: 0px;
+  padding: 0px;
+}
+
+.Start-Description {
+  margin: 0px;
+  padding: 0px;
+  
+  
+}
+
+.Question-Wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 15vh;
+  justify-content: space-evenly;
+  border-bottom: solid;
+  border-color: rgb(102, 153, 255, 0.3)
+
+
+}
+
+.Quiz-Question {
+  color: #003d99;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+.Quiz-Answers{
+  display: flex;
+  width: 60vw;
+  gap: 2vw;
+  
+}
+
+
+.Button {
+  background-color: #005ce6;
+  border-style: none;
+  color: white;
+  border-radius: 16px;
+  
+}
+
+.Starter-Button {
+  font-size: 3vw;
+  width: 16vw;
+  height: 10vh;
+  cursor: pointer;
+}
+
+.Answer-Button {
+  font-size: 1vw;
+  min-width: 6vw;
+  max-width: 20vw;
+  padding:0.3vw;
+  min-height: 4vh;
+  max-height: 8vh;
+  
+  background-color: transparent;
+  color:#003d99;
+  border-style: solid;
+  border-color: #005ce6;
+  border-radius: 20px;
+}
+
+
+
+
+.End-Area {
+  display: flex;
+  width: 40vw;
+  margin-top: 2vw;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.End-Text {
+  color:#003d99;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+.clickAnswer {
+  background-color: #b3d9ff;
+  border-style: none;
+}
+
+.clickedCorrectAnswer {
+  background-color: #47d147;
+}
+
+.correctAnswer{
+  background-color: #47d147;
+  opacity: 0.3;
+}
+
+.clickedWrongAnswer {
+  background-color: #ff6600;
+  color: white;
+}
+
+.checkedWasClicked {
+  opacity: 0.3;
+}
+
+
+
+.Check-Button {
+  margin-top: 2vw;
+  font-size: 2vw;
+  width: 16vw;
+  height: 8vh;
+}
+
+.newGame-Button {
+  font-size: 2vw;
+  width: 16vw;
+  height: 8vh;
+}
